@@ -31,18 +31,18 @@
             </div>
 
             <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
+                <p>Cafe ve Restorantlar</p>
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Kategoriler</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">Home 1</a>
+                            <a href="#">Restorant</a>
                         </li>
                         <li>
-                            <a href="#">Home 2</a>
+                            <a href="#">Bar</a>
                         </li>
                         <li>
-                            <a href="#">Home 3</a>
+                            <a href="#">Gece Klubü</a>
                         </li>
                     </ul>
                 </li>
