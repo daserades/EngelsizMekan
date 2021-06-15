@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="anasayfa.css">
     <link rel="stylesheet" href="cafe.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
 
 </head>
@@ -128,7 +130,7 @@
           </div>
       </nav>
 
-
+<h2 style="display:flex; justify-content:center">bayramlar cafe restorant </h2>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -137,7 +139,7 @@
                         <div class="__area text-center">
                           <a href="#" class="__card">
                             <button class="__favorit"><i class="la la-heart-o"></i></button>
-                            <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+                            <img src="img/cafe3.jpg" class="img-fluid __img" />
                           </a>
                         </div> 
                       </div>
@@ -148,7 +150,7 @@
                         <div class="__area text-center">
                           <a href="#" class="__card">
                             <button class="__favorit"><i class="la la-heart-o"></i></button>
-                            <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+                            <img src="img/cafe3.1.jpg" class="img-fluid __img" />
                           </a>
                         </div> 
                       </div>
@@ -159,7 +161,7 @@
                         <div class="__area text-center">
                           <a href="#" class="__card">
                             <button class="__favorit"><i class="la la-heart-o"></i></button>
-                            <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+                            <img src="img/cafe3.2.jpg" class="img-fluid __img" />
                           </a>
                         </div> 
                       </div>
@@ -202,23 +204,17 @@
       <div class="emptybar"></div>
       <div class="filledbar"></div>
     </div>
-    <div class="circle">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <circle class="stroke" cx="60" cy="60" r="50"/>
-    </svg>
-    </div>
+    
   </div>
   <div class="card">
-    <h3 class="title">Card 2</h3>
+    <h3 class="title">Restorant Bilgileri</h3>
     <div class="bar">
       <div class="emptybar"></div>
       <div class="filledbar"></div>
+      <div style="color: white">Tel : 666 77 77 </div>
+      
     </div>
-    <div class="circle">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <circle class="stroke" cx="60" cy="60" r="50"/>
-    </svg>
-    </div>
+    
   </div>
   <div class="card">
     <h3 class="title">Card 3</h3>
@@ -226,11 +222,7 @@
       <div class="emptybar"></div>
       <div class="filledbar"></div>
     </div>
-    <div class="circle">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <circle class="stroke" cx="60" cy="60" r="50"/>
-    </svg>
-    </div>
+    
   </div>
   <div class="card">
     <h3 class="title">Card 4</h3>
@@ -238,11 +230,7 @@
       <div class="emptybar"></div>
       <div class="filledbar"></div>
     </div>
-    <div class="circle">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <circle class="stroke" cx="60" cy="60" r="50"/>
-    </svg>
-    </div>
+   
   </div>
 </div>
 
@@ -250,9 +238,104 @@
 
 </div>
 </div>
+<map >
+
+<div class="responsive-map ">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10606.52581199504!2d29.086304560337734!3d37.78209468811204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c7139e13246151%3A0xccf557bc03a2758d!2sDenizli%20Merkez%2C%20Denizli!5e0!3m2!1str!2str!4v1623769899914!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+</map>
 
 
 
+
+<div class="container">
+<div class="be-comment-block">
+	<h1 class="comments-title">Yorumlar (3)</h1>
+	<div class="be-comment">
+		<div class="be-img-comment">	
+			<a href="#">
+				<img src="img/avatar3.png" alt="" class="be-ava-comment">
+			</a>
+		</div>
+		<div class="be-comment-content">
+			
+				<span class="be-comment-name">
+					<a href="#">Ahmet</a>
+					</span>
+				<span class="be-comment-time">
+					<i class="fa fa-clock-o"></i>
+					Haz 27, 2021  3:14
+				</span>
+
+			<p class="be-comment-text">
+				Pellentesque gravida tristique ultrices. 
+				Sed blandit varius mauris, vel volutpat urna hendrerit id. 
+				Curabitur rutrum dolor gravida turpis tristique efficitur.
+			</p>
+		</div>
+	</div>
+	<div class="be-comment">
+		<div class="be-img-comment">	
+			<a href="#">
+				<img src="img/avatar2.png" alt="" class="be-ava-comment">
+			</a>
+		</div>
+		<div class="be-comment-content">
+			<span class="be-comment-name">
+				<a href="blog-detail-2.html">Beyza </a>
+			</span>
+			<span class="be-comment-time">
+				<i class="fa fa-clock-o"></i>
+				JUL 13, 2021  5:25
+			</span>
+			<p class="be-comment-text">
+				Nunc ornare sed dolor sed mattis. In scelerisque dui a arcu mattis, at maximus eros commodo. Cras magna nunc, cursus lobortis luctus at, sollicitudin vel neque. Duis eleifend lorem non ant. Proin ut ornare lectus, vel eleifend est. Fusce hendrerit dui in turpis tristique blandit.
+			</p>
+		</div>
+	</div>
+	<div class="be-comment">
+		<div class="be-img-comment">	
+			<a href="#">
+				<img src="img/avatar1.png" alt="" class="be-ava-comment">
+			</a>
+		</div>
+		<div class="be-comment-content">
+			<span class="be-comment-name">
+				<a href="">Ayşe</a>
+			</span>
+			<span class="be-comment-time">
+				<i class="fa fa-clock-o"></i>
+				May 27, 2019  1:14
+			</span>
+			<p class="be-comment-text">
+				Cras magna nunc, cursus lobortis luctus at, sollicitudin vel neque. Duis eleifend lorem non ant
+			</p>
+		</div>
+	</div>
+	<form class="form-block ">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<div class="form-group fl_icon">
+					<div class="icon"><i class="fa fa-user"></i></div>
+					<input class="form-input" type="text" placeholder="İsim Soyisim">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 fl_icon">
+				<div class="form-group fl_icon">
+					<div class="icon"><i class="fa fa-envelope-o"></i></div>
+					<input class="form-input" type="text" placeholder="email">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-lg-10 ">									
+				<div class="form-group">
+					<textarea class="form-input" required="" placeholder="Yorum Yazınız.."></textarea>
+				</div>
+			</div>
+			<button style="weight:5px; height:35px; display:flex; justify-content:center; align-items:center;">Gönder</button>
+		</div>
+	</form>
+</div>
+</div>
 
 
 

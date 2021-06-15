@@ -226,8 +226,8 @@ a.article, a.article:hover {
   }
   
   .__card {
-    max-width: 1000px;
-    margin: 15px;
+    max-width: 800px;
+    margin: auto;
     cursor: pointer;
     position: relative;
     display: inline-block;
