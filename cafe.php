@@ -11,12 +11,12 @@
    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="anasayfa.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cafe.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
 
 </head>
@@ -41,7 +41,7 @@
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Kategoriler</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">Restorant</a>
+                            <a href="#"  >Restorant</a>
                         </li>
                         <li>
                             <a href="#">Bar</a>
@@ -138,21 +138,6 @@
                           <a href="#" class="__card">
                             <button class="__favorit"><i class="la la-heart-o"></i></button>
                             <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-                            <div class="__card_detail text-left">
-                              <h4>Fiorella</h4>
-                              <p>
-                                2238 Polk St, San Francisco, CA 94109, United States
-                              </p>
-                              <div class="__type">
-                                <span href="#Italian">Italian</span>
-                                <span href="#Vegetarian">Vegetarian</span>
-                                <span href="#Pizza">Pizza</span>
-                                <span href="#off">10%</span>
-                              </div>
-                              <div class="__detail">
-                                <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-                              </div>
-                            </div>
                           </a>
                         </div> 
                       </div>
@@ -164,21 +149,6 @@
                           <a href="#" class="__card">
                             <button class="__favorit"><i class="la la-heart-o"></i></button>
                             <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-                            <div class="__card_detail text-left">
-                              <h4>Bayram Restorant</h4>
-                              <p>
-                                2238 Polk St, San Francisco, CA 94109, United States
-                              </p>
-                              <div class="__type">
-                                <span href="#Italian">Italian</span>
-                                <span href="#Vegetarian">Vegetarian</span>
-                                <span href="#Pizza">Pizza</span>
-                                <span href="#off">10%</span>
-                              </div>
-                              <div class="__detail">
-                                <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-                              </div>
-                            </div>
                           </a>
                         </div> 
                       </div>
@@ -190,21 +160,6 @@
                           <a href="#" class="__card">
                             <button class="__favorit"><i class="la la-heart-o"></i></button>
                             <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-                            <div class="__card_detail text-left">
-                              <h4>Fiorella</h4>
-                              <p>
-                                2238 Polk St, San Francisco, CA 94109, United States
-                              </p>
-                              <div class="__type">
-                                <span href="#Italian">Italian</span>
-                                <span href="#Vegetarian">Vegetarian</span>
-                                <span href="#Pizza">Pizza</span>
-                                <span href="#off">10%</span>
-                              </div>
-                              <div class="__detail">
-                                <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-                              </div>
-                            </div>
                           </a>
                         </div> 
                       </div>
@@ -220,159 +175,6 @@
                 </button>
               </div>
 
-
-
-
-<div class="row justify-content-xl-center">
-    <div class="__area text-center">
-        <a href="#" class="__card_">
-          <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-          <div class="__card_detail text-left">
-            <h4>Fiorella</h4>
-            <p>
-              2238 Polk St, San Francisco, CA 94109, United States
-            </p>
-            <div class="__type">
-              <span href="#Italian">Italian</span>
-              <span href="#Vegetarian">Vegetarian</span>
-              <span href="#Pizza">Pizza</span>
-              <span href="#off">10%</span>
-            </div>
-            <div class="__detail">
-              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-            </div>
-          </div>
-        </a>
-      </div> 
-      <div class="__area text-center">
-        <a href="#" class="__card_">
-          <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-          <div class="__card_detail text-left">
-            <h4>Fiorella</h4>
-            <p>
-              2238 Polk St, San Francisco, CA 94109, United States
-            </p>
-            <div class="__type">
-              <span href="#Italian">Italian</span>
-              <span href="#Vegetarian">Vegetarian</span>
-              <span href="#Pizza">Pizza</span>
-              <span href="#off">10%</span>
-            </div>
-            <div class="__detail">
-              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-            </div>
-          </div>
-        </a>
-      </div> 
-      <div class="__area text-center">
-        <a href="#" class="__card_">
-          <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-          <div class="__card_detail text-left">
-            <h4>Fiorella</h4>
-            <p>
-              2238 Polk St, San Francisco, CA 94109, United States
-            </p>
-            <div class="__type">
-              <span href="#Italian">Italian</span>
-              <span href="#Vegetarian">Vegetarian</span>
-              <span href="#Pizza">Pizza</span>
-              <span href="#off">10%</span>
-            </div>
-            <div class="__detail">
-              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-            </div>
-          </div>
-        </a>
-      </div> 
-      <div class="__area text-center">
-        <a href="#" class="__card_">
-          <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-          <div class="__card_detail text-left">
-            <h4>Fiorella</h4>
-            <p>
-              2238 Polk St, San Francisco, CA 94109, United States
-            </p>
-            <div class="__type">
-              <span href="#Italian">Italian</span>
-              <span href="#Vegetarian">Vegetarian</span>
-              <span href="#Pizza">Pizza</span>
-              <span href="#off">10%</span>
-            </div>
-            <div class="__detail">
-              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-            </div>
-          </div>
-        </a>
-      </div> 
-      <div class="__area text-center">
-        <a href="#" class="__card_">
-          <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-          <div class="__card_detail text-left">
-            <h4>Fiorella</h4>
-            <p>
-              2238 Polk St, San Francisco, CA 94109, United States
-            </p>
-            <div class="__type">
-              <span href="#Italian">Italian</span>
-              <span href="#Vegetarian">Vegetarian</span>
-              <span href="#Pizza">Pizza</span>
-              <span href="#off">10%</span>
-            </div>
-            <div class="__detail">
-              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-            </div>
-          </div>
-        </a>
-      </div> 
-      <div class="__area text-center">
-        <a href="#" class="__card_">
-          <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-          <div class="__card_detail text-left">
-            <h4>Fiorella</h4>
-            <p>
-              2238 Polk St, San Francisco, CA 94109, United States
-            </p>
-            <div class="__type">
-              <span href="#Italian">Italian</span>
-              <span href="#Vegetarian">Vegetarian</span>
-              <span href="#Pizza">Pizza</span>
-              <span href="#off">10%</span>
-            </div>
-            <div class="__detail">
-              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-            </div>
-          </div>
-        </a>
-      </div> 
-      <div class="__area text-center">
-        <a href="#" class="__card_">
-          <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
-          <div class="__card_detail text-left">
-            <h4>Fiorella</h4>
-            <p>
-              2238 Polk St, San Francisco, CA 94109, United States
-            </p>
-            <div class="__type">
-              <span href="#Italian">Italian</span>
-              <span href="#Vegetarian">Vegetarian</span>
-              <span href="#Pizza">Pizza</span>
-              <span href="#off">10%</span>
-            </div>
-            <div class="__detail">
-              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
-            </div>
-          </div>
-        </a>
-      </div> 
-    </div>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
@@ -385,8 +187,93 @@
             });
         });
     </script>
-</body>
+<div>
 
+<div style="display:flex; justify-content:center">
+
+
+
+
+
+<div class="containers">
+  <div class="card">
+    <h3 class="title">Card 1</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="title">Card 2</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="title">Card 3</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="title">Card 4</h3>
+    <div class="bar">
+      <div class="emptybar"></div>
+      <div class="filledbar"></div>
+    </div>
+    <div class="circle">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle class="stroke" cx="60" cy="60" r="50"/>
+    </svg>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 
 
 <footer id="footer" class="footer-1">

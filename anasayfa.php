@@ -26,17 +26,17 @@
 <body>
 
     <div class="wrapper">
-        <nav id="sidebar">
+        <nav id="sidebar" class="sticky-top">
             <div class="sidebar-header">
-                <h3>Engelsiz Ortam</h3>
+                <h1 style="font-size: 25px;">Engelsiz Ortam</h1>
             </div>
 
             <ul class="list-unstyled components">
                 <p>Cafe ve Restorantlar</p>
-                <div class="container-fluid " style="max-width: 400px; " >
+                <div class="container-fluid " style="max-width: 400px;  " >
                     <form class="d-flex ">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-light" type="submit">Arama</button>
+                      <button class="btn btn-light" type="submit">Ara</button>
                     </form>
                   </div>
                 <li class="active">
@@ -86,13 +86,14 @@
                 </li>
     
             </ul>
+            <button class="btn btn-light " type="submit" style="display:flex; justify-content:center;">Ara</button>
 
        
         </nav>
 
         <div id="content">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light   ">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light   ">
           <div class="container-fluid">
 
               <button type="button" id="sidebarCollapse" class="navbar-btn">
@@ -120,7 +121,7 @@
                   <div class="container-fluid " style="max-width: 700px;  " >
                     <form class="d-flex ">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-light" type="submit">Arama</button>
+                      <button class="btn btn-light" type="submit">Ara</button>
                     </form>
                   </div>
                   <button type="button" class="btn btn-light"> <a href="login.php"> Giriş</a></button>
@@ -139,7 +140,7 @@
                         <div class="__area text-center">
                           <a href="#" class="__card">
                             <button class="__favorit"><i class="la la-heart-o"></i></button>
-                            <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+                            <img src="img/cafe5.jpg" class="img-fluid __img" />
                             <div class="__card_detail text-left">
                               <h4>Fiorella</h4>
                               <p>
@@ -165,7 +166,7 @@
                         <div class="__area text-center">
                           <a href="#" class="__card">
                             <button class="__favorit"><i class="la la-heart-o"></i></button>
-                            <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+                            <img src="img/cafe9.jpg" class="img-fluid __img" />
                             <div class="__card_detail text-left">
                               <h4>Bayram Restorant</h4>
                               <p>
@@ -227,9 +228,9 @@
 
 <div class="row justify-content-xl-center">
     <div class="__area text-center">
-        <a href="#" class="__card_">
+        <a href="cafe.php" class="__card_">
           <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+          <img src="img/cafe5.jpg" class="img-fluid __img" />
           <div class="__card_detail text-left">
             <h4>Fiorella</h4>
             <p>
@@ -250,7 +251,7 @@
       <div class="__area text-center">
         <a href="#" class="__card_">
           <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+          <img src="img/cafe1.jpg" class="img-fluid __img" />
           <div class="__card_detail text-left">
             <h4>Fiorella</h4>
             <p>
@@ -271,7 +272,7 @@
       <div class="__area text-center">
         <a href="#" class="__card_">
           <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+          <img src="img/cafe6.jpg" class="img-fluid __img" />
           <div class="__card_detail text-left">
             <h4>Fiorella</h4>
             <p>
@@ -292,7 +293,7 @@
       <div class="__area text-center">
         <a href="#" class="__card_">
           <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+          <img src="img/cafe7.jpg" class="img-fluid __img" />
           <div class="__card_detail text-left">
             <h4>Fiorella</h4>
             <p>
@@ -313,7 +314,7 @@
       <div class="__area text-center">
         <a href="#" class="__card_">
           <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+          <img src="img/cafe3.jpg" class="img-fluid __img" />
           <div class="__card_detail text-left">
             <h4>Fiorella</h4>
             <p>
@@ -334,7 +335,7 @@
       <div class="__area text-center">
         <a href="#" class="__card_">
           <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+          <img src="img/cafe8.jpg" class="img-fluid __img" />
           <div class="__card_detail text-left">
             <h4>Fiorella</h4>
             <p>
@@ -355,7 +356,49 @@
       <div class="__area text-center">
         <a href="#" class="__card_">
           <button class="__favorit"><i class="la la-heart-o"></i></button>
-          <img src="https://i.pinimg.com/originals/74/84/4c/74844c4207ec819b6ffaa6291591311e.jpg" class="img-fluid __img" />
+          <img src="img/cafe11.jpg" class="img-fluid __img" />
+          <div class="__card_detail text-left">
+            <h4>Fiorella</h4>
+            <p>
+              2238 Polk St, San Francisco, CA 94109, United States
+            </p>
+            <div class="__type">
+              <span href="#Italian">Italian</span>
+              <span href="#Vegetarian">Vegetarian</span>
+              <span href="#Pizza">Pizza</span>
+              <span href="#off">10%</span>
+            </div>
+            <div class="__detail">
+              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
+            </div>
+          </div>
+        </a>
+      </div> 
+      <div class="__area text-center">
+        <a href="#" class="__card_">
+          <button class="__favorit"><i class="la la-heart-o"></i></button>
+          <img src="img/cafe10.jpg" class="img-fluid __img" />
+          <div class="__card_detail text-left">
+            <h4>Fiorella</h4>
+            <p>
+              2238 Polk St, San Francisco, CA 94109, United States
+            </p>
+            <div class="__type">
+              <span href="#Italian">Italian</span>
+              <span href="#Vegetarian">Vegetarian</span>
+              <span href="#Pizza">Pizza</span>
+              <span href="#off">10%</span>
+            </div>
+            <div class="__detail">
+              <i class="la la-star-o"></i> <span>5.0</span> <i class="la la-clock-o"></i> <span>30 m</span>
+            </div>
+          </div>
+        </a>
+      </div> 
+      <div class="__area text-center">
+        <a href="#" class="__card_">
+          <button class="__favorit"><i class="la la-heart-o"></i></button>
+          <img src="img/cafe9.jpg" class="img-fluid __img" />
           <div class="__card_detail text-left">
             <h4>Fiorella</h4>
             <p>
@@ -409,11 +452,11 @@
   <h5 class="widget-title">Amaç<span></span></h5>
   <ul class="thumbnail-widget">
   <li>
-  <div class="thumb-content"><a href="#">Bu uygulama engelli vatandaşların deneyimlerini birbirleri ile paylaşma imkanı vermesi için hazırlanmıştır.</a></div> 
+  <div class="thumb-content">Bu uygulama engelli vatandaşların deneyimlerini birbirleri ile paylaşma imkanı vermesi için hazırlanmıştır.</div> 
   </li>
   <li>
-  <div class="thumb-content"><a href="#">Piyasadaki değerlendirme uygulamaların aksine bu uygulama engelli bireylere özel hazırlanmıştır ve daha basit, 
-    anlaşılır bir arayüze sahiptir.</a></div> 
+  <div class="thumb-content">Piyasadaki değerlendirme uygulamaların aksine bu uygulama engelli bireylere özel hazırlanmıştır ve daha basit, 
+    anlaşılır bir arayüze sahiptir.</div> 
   </li>
   <li>
   </ul>
