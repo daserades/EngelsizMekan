@@ -241,8 +241,8 @@
 <map >
 
 <div class="responsive-map ">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10606.52581199504!2d29.086304560337734!3d37.78209468811204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c7139e13246151%3A0xccf557bc03a2758d!2sDenizli%20Merkez%2C%20Denizli!5e0!3m2!1str!2str!4v1623769899914!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9027.11436173958!2d29.08795927692085!3d37.755677971883394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c73f1dd31aef41%3A0xe422aa88f5615dd1!2zRm9ydW0gw4dhbWzEsWs!5e1!3m2!1str!2str!4v1623770093786!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 </map>
 
 
