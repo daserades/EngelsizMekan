@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engelsiz Ortam</title>
     <script src="js/main.js"></script>
-    
+
    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="anasayfa.css">
@@ -303,14 +303,21 @@
 			<span class="be-comment-name">
 				<a href="">Ayşe</a>
 			</span>
+                    
+      
 			<span class="be-comment-time">
-				<i class="fa fa-clock-o"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
 				May 27, 2019  1:14
 			</span>
 			<p class="be-comment-text">
 				Cras magna nunc, cursus lobortis luctus at, sollicitudin vel neque. Duis eleifend lorem non ant
 			</p>
 		</div>
+    
 	</div>
 	<form class="form-block ">
 		<div class="row">
@@ -331,7 +338,6 @@
 					<textarea class="form-input" required="" placeholder="Yorum Yazınız.."></textarea>
 				</div>
 			</div>
-			<button style="weight:5px; height:35px; display:flex; justify-content:center; align-items:center;">Gönder</button>
 		</div>
 	</form>
 </div>

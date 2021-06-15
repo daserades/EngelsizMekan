@@ -22,7 +22,7 @@
                                 <div class="group"> <label for="user" class="label">Kullanıcı Adı</label> <input id="user" type="text" class="input" placeholder="Kullanıcı Adı Giriniz.."> </div>
                                 <div class="group"> <label for="pass" class="label">Şifre</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Şifre Giriniz.."> </div>
                                 <div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"><span class="icon"></span> Beni Hatırla</label> </div>
-                                <div class="group"> <a href="anasayfa.php"><input type="submit" class="button" value="Giriş"></a></div>
+                                <div class="group"> <a href="profile.html"><input type="submit" class="button" value="Giriş"></a></div>
                                 <div class="hr"> </div>
                                 <div class="foot"> <a href="anasayfa.php">Şifreyi Mi Unuttunuz?</a> </div>
                             </div>
@@ -31,7 +31,7 @@
                                 <div class="group"> <label for="pass" class="label">Şifre</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Şifre Giriniz.."> </div>
                                 <div class="group"> <label for="pass" class="label">Şifre Tekrar Giriniz</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Şifreyi Tekrar Giriniz.."> </div>
                                 <div class="group"> <label for="pass" class="label">Email</label> <input id="pass" type="text" class="input" placeholder="Enter Giriniz.."> </div>
-                                <div class="group" ><a href="anasayfa.php"><input href="anasayfa.php" type="submit" class="button" value="Kayıt Ol" > </a></div>
+                                <div class="group" ><a href="profile.html"><input href="anasayfa.php" type="submit" class="button" value="Kayıt Ol" > </a></div>
                                 <div class="hr"></div>
                                 <div class="foot"> <label for="tab-1">Üye misiniz?</label> </div>
                             </div>

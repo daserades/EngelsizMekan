@@ -1,4 +1,4 @@
-<?php>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -31,4 +31,3 @@ anlaşılır bir arayüze sahiptir.
 </body>
 </html>
 
-<?>
