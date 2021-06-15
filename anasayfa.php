@@ -10,13 +10,9 @@
     <title>Engelsiz Ortam</title>
     <script src="js/main.js"></script>
     
-    <!-- Bootstrap CSS CDN -->
    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Our Custom CSS -->
     <link rel="stylesheet" href="anasayfa.css">
-
-    <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
@@ -30,7 +26,6 @@
 <body>
 
     <div class="wrapper">
-        <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
                 <h3>Engelsiz Ortam</h3>
@@ -38,6 +33,12 @@
 
             <ul class="list-unstyled components">
                 <p>Cafe ve Restorantlar</p>
+                <div class="container-fluid " style="max-width: 400px; " >
+                    <form class="d-flex ">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-light" type="submit">Arama</button>
+                    </form>
+                  </div>
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Kategoriler</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
@@ -52,45 +53,43 @@
                         </li>
                     </ul>
                     <li>
-                    <a href="#pagesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <a href="#pagesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Konumu</a>
                     <ul class="collapse list-unstyled" id="pagesSubmenu">
                         <li>
-                            <a href="#">Page 1</a>
+                            <a href="#">İl</a>
                         </li>
                         <li>
-                            <a href="#">Page 2</a>
+                            <a href="#">İlçe</a>
                         </li>
                         <li>
-                            <a href="#">Page 3</a>
+                            <a href="#">Mahalle</a>
                         </li>
                     </ul>
                 </li>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Mekan Puanı</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="#">Page 1</a>
+                            <a href="#">Yemek Puanı</a>
                         </li>
                         <li>
-                            <a href="#">Page 2</a>
+                            <a href="#">Ortam ve Çevre Puanı</a>
                         </li>
                         <li>
-                            <a href="#">Page 3</a>
+                            <a href="#">Ulaşım Puanı</a>
+                        </li>
+                        <li>
+                            <a href="#">Muzik Seçimi</a>
                         </li>
                     </ul>
                 </li>
-                
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-
+    
             </ul>
 
        
         </nav>
 
-        <!-- Page Content Holder -->
         <div id="content">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light   ">
@@ -109,13 +108,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="nav navbar-nav justify-content-space-between ">
                       <li class="nav-item active">
-                          <a class="nav-link" href="#">Anasayfa</a>
+                          <a class="nav-link" href="anasayfa.php">Anasayfa</a>
                       </li>
                       <li class="nav-item active">
-                          <a class="nav-link" href="#">Hakkımızda</a>
+                          <a class="nav-link" href="hakkımızda.html">Hakkımızda</a>
                       </li>
                       <li class="nav-item active">
-                          <a class="nav-link" href="#">İletişim</a>
+                          <a class="nav-link" href="iletisim.html">İletişim</a>
                       </li>
                   </ul>
                   <div class="container-fluid " style="max-width: 700px;  " >
@@ -376,11 +375,8 @@
       </div> 
     </div>
 
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
