@@ -1,147 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İletisim</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="iletisim.css">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletisim</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="iletisim.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+    integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 
 
 
 </head>
+
 <body>
-    
-    
-    <div class="background">
-        <div class="container">
-          <div class="screen">
-            <div class="screen-header">
-              <div class="screen-header-left">
-                <div class="screen-header-button close"></div>
-                <div class="screen-header-button maximize"></div>
-                <div class="screen-header-button minimize"></div>
+
+
+  <div class="background">
+    <div class="container">
+      <div class="screen">
+        <div class="screen-header">
+          <div class="screen-header-left">
+            <div class="screen-header-button close"></div>
+            <div class="screen-header-button maximize"></div>
+            <div class="screen-header-button minimize"></div>
+          </div>
+          <div class="screen-header-nav justify-content-center">
+            <div class="screen-header-navbar"><a href="anasayfa.html" style="text-decoration: none;">Anasayfa</a></div>
+            <div class="screen-header-navbar"><a href="hakkımızda.html" style="text-decoration: none;">Hakkımızda</a>
+            </div>
+            <div class="screen-header-navbar"><a href="iletisim.html" style="text-decoration: none;">İletisim</a> </div>
+          </div>
+          <div class="screen-header-right">
+            <div class="screen-header-ellipsis"></div>
+            <div class="screen-header-ellipsis"></div>
+            <div class="screen-header-ellipsis"></div>
+          </div>
+        </div>
+        <div class="screen-body">
+          <div class="screen-body-item left">
+            <div class="app-title">
+              <span>İLETİŞİM</span>
+              <span>KUTUSU</span>
+            </div>
+            <div class="app-contact">Engelsiz Ortam</div>
+          </div>
+          <div class="screen-body-item">
+            <div class="app-form">
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="İsim Soyisim">
               </div>
-              <div class="screen-header-nav justify-content-center">
-                <div class="screen-header-navbar"><a href="anasayfa.html" style="text-decoration: none;">Anasayfa</a></div>
-                <div class="screen-header-navbar"><a href="hakkımızda.html" style="text-decoration: none;">Hakkımızda</a></div>
-                <div class="screen-header-navbar"><a href="iletisim.html" style="text-decoration: none;">İletisim</a> </div>
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="EMAIL">
               </div>
-              <div class="screen-header-right"> 
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="Telefon Numarası">
+              </div>
+              <div class="app-form-group message">
+                <input class="app-form-control" placeholder="Mesaj">
+              </div>
+              <div class="app-form-group buttons">
+                <button class="app-form-button">Geri Al</button>
+                <button class="app-form-button">Gönder</button>
               </div>
             </div>
-            <div class="screen-body">
-              <div class="screen-body-item left">
-                <div class="app-title">
-                  <span>İLETİŞİM</span>
-                  <span>KUTUSU</span>
-                </div>
-                <div class="app-contact">Engelsiz Ortam</div>
-              </div>
-              <div class="screen-body-item">
-                <div class="app-form">
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="İsim Soyisim">
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="EMAIL">
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="Telefon Numarası">
-                  </div>
-                  <div class="app-form-group message">
-                    <input class="app-form-control" placeholder="Mesaj">
-                  </div>
-                  <div class="app-form-group buttons">
-                    <button class="app-form-button">Geri Al</button>
-                    <button class="app-form-button">Gönder</button>
-                  </div>
-                </div>
-              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+<footer id="footer" class="footer-1">
+  <div class="main-footer widgets-dark typo-light">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="widget subscribe no-box">
+            <h5 class="widget-title">Engelsiz Ortam<span></span></h5>
+            <p>Engelsiz Mekanlar bir değerlendirme programıdır... </p>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="widget no-box">
+            <h5 class="widget-title">Amaç<span></span></h5>
+            <ul class="thumbnail-widget">
+              <li>
+                <div class="thumb-content">Bu uygulama engelli vatandaşların deneyimlerini birbirleri ile paylaşma
+                  imkanı vermesi için hazırlanmıştır.</div>
+              </li>
+              <li>
+                <div class="thumb-content">Piyasadaki değerlendirme uygulamaların aksine bu uygulama engelli bireylere
+                  özel hazırlanmıştır ve daha basit,
+                  anlaşılır bir arayüze sahiptir.</div>
+              </li>
+              <li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="widget no-box">
+            <h5 class="widget-title">Sosyal Medya<span></span></h5>
+            <i class="bi bi-facebook " style="font-size: 30px; margin: 5px;"></i>
+            <i class="bi bi-youtube" style="font-size: 30px; margin: 5px;"></i>
+            <i class="bi bi-twitter" style="font-size: 30px; margin: 5px;"></i>
+          </div>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="widget no-box">
+            <h5 class="widget-title">İletişim<span></span></h5>
+            <p>Bizim ile e-posta aracılıyla iletişime geçebilir ve yeni restorantlardan haberdar olabilirsiniz.</p>
+            <div class="emailfield">
+              <input type="text" name="email" value="Email">
+              <input name="uri" type="hidden" value="arabiantheme">
+              <input name="loc" type="hidden" value="en_US">
+              <input class="submitbutton ripplelink" type="submit" value="Subscribe">
+              </form>
             </div>
           </div>
 
         </div>
       </div>
-      
-</body>
+    </div>
 
-<footer id="footer" class="footer-1">
-    <div class="main-footer widgets-dark typo-light">
-    <div class="container">
-    <div class="row">
-    
-      <div class="col-xs-12 col-sm-6 col-md-3">
-    <div class="widget subscribe no-box">
-    <h5 class="widget-title">Engelsiz Ortam<span></span></h5>
-    <p>Engelsiz Mekanlar bir değerlendirme programıdır... </p>
-    </div>
-    </div>
-    
-      
-    <div class="col-xs-12 col-sm-6 col-md-3">
-    <div class="widget no-box">
-    <h5 class="widget-title">Amaç<span></span></h5>
-    <ul class="thumbnail-widget">
-    <li>
-    <div class="thumb-content">Bu uygulama engelli vatandaşların deneyimlerini birbirleri ile paylaşma imkanı vermesi için hazırlanmıştır.</div> 
-    </li>
-    <li>
-    <div class="thumb-content">Piyasadaki değerlendirme uygulamaların aksine bu uygulama engelli bireylere özel hazırlanmıştır ve daha basit, 
-      anlaşılır bir arayüze sahiptir.</div> 
-    </li>
-    <li>
-    </ul>
-    </div>
-    </div>
-    
-      
-    
-          <div class="col-xs-12 col-sm-6 col-md-3">
-    <div class="widget no-box">
-    <h5 class="widget-title">Sosyal Medya<span></span></h5>
-                <i class="bi bi-facebook " style="font-size: 30px; margin: 5px;"></i> 
-                <i class="bi bi-youtube"   style="font-size: 30px; margin: 5px;"></i> 
-                <i class="bi bi-twitter"   style="font-size: 30px; margin: 5px;"></i>
-    </div>
-    </div>
-    <br>
-      <br>
-    
-    
-    <div class="col-xs-12 col-sm-6 col-md-3">
-    <div class="widget no-box">
-    <h5 class="widget-title">İletişim<span></span></h5>
-                <p>Bizim ile e-posta aracılıyla iletişime geçebilir ve yeni restorantlardan haberdar olabilirsiniz.</p>
-      <div class="emailfield">
-    <input type="text" name="email" value="Email">
-    <input name="uri" type="hidden" value="arabiantheme">
-    <input name="loc" type="hidden" value="en_US">
-    <input class="submitbutton ripplelink" type="submit" value="Subscribe">
-    </form>  
-    </div>
-    </div>
-    
-    </div>
-    </div>
-    </div>
-      
     <div class="footer-copyright">
-    <div class="container">
-    <div class="row">
-    <div class="col-md-12 text-center">
-      <p>since © 2021 by Alper Bayram, Cahit Karaca, Veli Küçük.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>since © 2021 by Alper Bayram, Cahit Karaca, Veli Küçük.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </footer>
+</footer>
+
 </html>
